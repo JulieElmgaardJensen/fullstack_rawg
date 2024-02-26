@@ -8,8 +8,10 @@ import { useState } from "react";
 import PlatformSelector from "./components/PlatformSelector";
 import { Platform } from "./hooks/usePlatforms";
 
+interface 
+
 function App() {
-  
+  const [gameQuery, setGameQuery] = useState<GameQuery>({} as GameQuery)
 
   const [selectedGenre, setSelectedGenre] = useState<Genre | null>(null)
   const [selectedPlatform, setSelectedPlatform] = useState<Platform | null>(null);
