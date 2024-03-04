@@ -37,7 +37,7 @@ const GenreList = ({ onSelectedGenre, selectedGenre }: Props) => {
                 variant="link"
                 fontSize="lg"
                 colorScheme={
-                  selectedGenre?.id === genre.id ? "yellow" : "white"
+                  selectedGenre?.id === genre.id ? "green" : "white"
                 }
               >
                 {genre.name}
